@@ -1,0 +1,6 @@
+decompiled/
+bin/
+obj/
+dist/
+.vs/
+*.user

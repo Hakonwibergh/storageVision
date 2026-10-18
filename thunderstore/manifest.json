@@ -1,0 +1,9 @@
+{
+  "name": "StorageVision",
+  "version_number": "0.1.2",
+  "website_url": "",
+  "description": "Readable storage info under the crosshair, a green outline on the storage box you look at (or the box your online order needs), and order info + payout value on packing tables.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305"
+  ]
+}
