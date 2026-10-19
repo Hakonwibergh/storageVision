@@ -16,6 +16,12 @@ Makes storage and online-order packing easier to read in **Supermarket Together*
 - Optional **OrderTarget** mode: while you hold the ordering tray, the nearest box with the next product your online order needs is outlined, which is the same product the game's arrows point to. The game's arrows can be hidden.
 - Only one object is outlined at a time. The outline is removed as soon as you look away.
 
+![Outline on the storage box you look at, with the product panel moved under the crosshair](https://raw.githubusercontent.com/Hakonwibergh/storageVision/main/docs/screenshots/storage-outline.jpg)
+
+![OrderTarget mode: the box with the next product for the online order is outlined](https://raw.githubusercontent.com/Hakonwibergh/storageVision/main/docs/screenshots/order-target.jpg)
+
+![OrderTarget mode seen from across the room](https://raw.githubusercontent.com/Hakonwibergh/storageVision/main/docs/screenshots/order-target-far.jpg)
+
 ### Packing table info
 Look at an online-order packing table to see:
 - whether the table has an order assigned, and how many orders are waiting if it has none
@@ -26,6 +32,10 @@ Look at an online-order packing table to see:
   - **Market**: base price x inflation.
   - **ShelfPrice**: at your own shelf prices.
 - a list of the products still needed
+
+![Packing table with an assigned order: items left, value range and remaining products](https://raw.githubusercontent.com/Hakonwibergh/storageVision/main/docs/screenshots/packing-table.jpg)
+
+![Packing table without an order](https://raw.githubusercontent.com/Hakonwibergh/storageVision/main/docs/screenshots/packing-table-empty.jpg)
 
 ## Configuration
 
@@ -48,6 +58,8 @@ Press **F8** in-game to open the Storage Vision settings window. Close it with *
 - While the window is open, the mouse cursor is freed and the game ignores your input. Everything is restored when you close it.
 - Settings are saved to the config file when you close the window.
 - The key can be changed with `MenuKey` in the `General` section of the config file.
+
+![The in-game settings menu (F8)](https://raw.githubusercontent.com/Hakonwibergh/storageVision/main/docs/screenshots/settings-menu.jpg)
 
 ### Settings
 
