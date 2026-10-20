@@ -103,7 +103,9 @@ namespace StorageVision
                 case HighlightMode.OrderTarget:
                     return _orderTarget.Find(context.LocalPlayer, context.Camera.transform.position);
                 case HighlightMode.Both:
-                    return lookTarget != null ? lookTarget : _orderTarget.Find(context.LocalPlayer, context.Camera.transform.position);
+                    // While picking an order, only the box the order needs is outlined.
+                    GameObject orderTarget = _orderTarget.Find(context.LocalPlayer, context.Camera.transform.position);
+                    return orderTarget != null ? orderTarget : lookTarget;
                 default:
                     return lookTarget;
             }

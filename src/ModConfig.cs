@@ -20,7 +20,7 @@ namespace StorageVision
         LookedAt,
         /// <summary>Outline the nearest box holding the next product of the online order (same target as the game's arrows).</summary>
         OrderTarget,
-        /// <summary>Looked-at box first; otherwise the order target.</summary>
+        /// <summary>Order target while picking an order; otherwise the looked-at box.</summary>
         Both
     }
 
@@ -128,7 +128,7 @@ namespace StorageVision
                 "Draws a colored outline around a box.");
             HighlightModeEntry = Bind(highlight, "Mode", HighlightMode.LookedAt, "Which box",
                 "Looked At = the storage box under the crosshair. Order Target = while holding the order tray: the nearest box with the next product the online order needs. " +
-                "Both = the box you look at, otherwise the order target.");
+                "Both = the order target while picking an order, otherwise the box you look at.");
             HighlightColor = Bind(highlight, "Color", Color.green, "Outline color", "Color of the outline.");
             HighlightWidth = Bind(highlight, "Width", 0.8f, "Outline thickness", "How thick the outline is.", 0.1f, 3f);
             HighlightAlwaysOnTop = Bind(highlight, "AlwaysOnTop", false, "Visible through objects",

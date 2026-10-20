@@ -1,6 +1,6 @@
 {
   "name": "StorageVision",
-  "version_number": "0.1.2",
+  "version_number": "1.0.0",
   "website_url": "https://github.com/Hakonwibergh/storageVision",
   "description": "Readable storage info under the crosshair, a green outline on the storage box you look at (or the box your online order needs), and order info + payout value on packing tables.",
   "dependencies": [

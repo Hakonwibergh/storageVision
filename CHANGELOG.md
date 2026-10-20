@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.0
+- Highlight mode `Both`: while picking an online order, only the box the order needs is outlined. Looking at other boxes no longer moves the outline away from it. Without an active order, the looked-at box is outlined as before.
+
 ## 0.1.2
 - The background box now fits the visible content tightly (no empty space around the product name). New setting: `BackgroundPadding`.
 - New setting `ProductTextScale`: size of the product name and brand in the game's panel.

@@ -78,7 +78,7 @@ Press **F8** in-game to open the Storage Vision settings window. Close it with *
 | Storage | Enabled | false | Extra line with the box amount ("Box: 20 / 20"). The outline works without it |
 | Storage | ShowPrices | true | Add your price and the market price to that line |
 | Highlight | Enabled | true | Outline boxes |
-| Highlight | Mode | LookedAt | `LookedAt`, `OrderTarget` or `Both` |
+| Highlight | Mode | LookedAt | `LookedAt`, `OrderTarget` or `Both` (order target while picking, otherwise the looked-at box) |
 | Highlight | Color | green | Outline color |
 | Highlight | Width | 0.8 | Outline width |
 | Highlight | AlwaysOnTop | false | Draw the outline through other objects |
